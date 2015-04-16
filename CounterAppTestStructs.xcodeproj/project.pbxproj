@@ -13,6 +13,7 @@
 		EEF9D2741ADF7D970065DF79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEF9D2731ADF7D970065DF79 /* Images.xcassets */; };
 		EEF9D2771ADF7D970065DF79 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEF9D2751ADF7D970065DF79 /* LaunchScreen.xib */; };
 		EEF9D2831ADF7D970065DF79 /* CounterAppTestStructsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF9D2821ADF7D970065DF79 /* CounterAppTestStructsTests.swift */; };
+		EEF9D28D1ADF801C0065DF79 /* MobileMarket.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF9D28C1ADF801C0065DF79 /* MobileMarket.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		EEF9D27C1ADF7D970065DF79 /* CounterAppTestStructsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterAppTestStructsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEF9D2811ADF7D970065DF79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEF9D2821ADF7D970065DF79 /* CounterAppTestStructsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterAppTestStructsTests.swift; sourceTree = "<group>"; };
+		EEF9D28C1ADF801C0065DF79 /* MobileMarket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileMarket.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				EEF9D26C1ADF7D970065DF79 /* AppDelegate.swift */,
 				EEF9D26E1ADF7D970065DF79 /* ViewController.swift */,
+				EEF9D28C1ADF801C0065DF79 /* MobileMarket.swift */,
 				EEF9D2701ADF7D970065DF79 /* Main.storyboard */,
 				EEF9D2731ADF7D970065DF79 /* Images.xcassets */,
 				EEF9D2751ADF7D970065DF79 /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEF9D28D1ADF801C0065DF79 /* MobileMarket.swift in Sources */,
 				EEF9D26F1ADF7D970065DF79 /* ViewController.swift in Sources */,
 				EEF9D26D1ADF7D970065DF79 /* AppDelegate.swift in Sources */,
 			);
